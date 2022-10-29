@@ -68,7 +68,7 @@ public class Main {
 				System.out.println("あなたの挑戦回数は" + tryNumber + "回で正解しました");
 				tryNumber++;
 				break;
-			} else if (blow < 4) {
+			} else if (blow < 4&&0<blow) {
 				System.out.println("△");
 			} else {
 				System.out.println("×");
